@@ -1,0 +1,16 @@
+man hexdump
+hexdump -C noDupFreq.txt
+hexdump -c noDupFreq.txt
+cat noDupFreq.txt
+man getopt
+man ls
+ls -la
+man make
+man gcc
+gcc <file>.c --> executable a.out 
+./a.out --> run your code 
+gcc -o <filename> <filename>.c --> executable
+cp a.out <filename> --> executable
+./<filename> to run
+
+
