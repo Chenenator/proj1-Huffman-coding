@@ -1,5 +1,3 @@
-Johnny Chen
-
 The data from the command line is read into the program using <getop.h> library. For step 1, the program first initialize 2 array using charFreq struct: one that stores the ASCII value from 0-255 and another one stores their frequencies. Then the file data from the command line is read by the FILE structure from the <stdio.h> library. For each character read, the corresponding freq field in the charFreq array is incremented-this will create a frequency table of ASCII value <-> frequency. To print out the frequencies for debug, the program search through the charFreq array and print them out (excluding zero frequency characters)
 
 In 2a, the program creates a forest of tree nodes by calling createNode() for each frequency in charFreq with their corresponding character inside their nodes (exclude 0 count frequencies). The createNode() takes the frequency, setting its left and right child to NULL and return its frequency or character if asked.
